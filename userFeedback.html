@@ -1,0 +1,118 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>User Feedback</title>    
+    <link rel="stylesheet" type="text/css" href="css/style.css">  
+
+</head>    
+<body>    
+    <h2>User Feedback</h2><br>    
+    <div class="login">    
+    <form action="feedback.php" method="POST">    
+<span id="go-back"><a href="userHome.html">Go back</a></span>
+        <br> 
+        
+        <label><b>Name     
+        </b>    
+        </label>  
+        <br>   
+        <input type="text" name="name" id="Uname" placeholder="Username">    
+        <br><br> 
+        <br>
+
+        <label><b>Email     
+        </b>    
+        </label>
+        <br>    
+        <input type="text" name="Email" id="Email" placeholder="Email">    
+        <br><br> 
+        <br> 
+
+        <label><b>Product Company    
+        </b>    
+        </label>
+        <br> 
+        <select name="companies" id="companies">
+        <option value="Apple">Apple</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Oppo">Oppo</option>
+        <option value="Huawei">Redmi</option>
+        </select>
+        <br><br>
+        <br>
+
+        <label><b>Product Name   
+        </b>    
+        </label>
+        <br> 
+        <select name="phones" id="phones">
+        <option value="iPhone 12 Pro Max">iPhone 12 Pro Max</option>
+        <option value="iPhone 12 Pro">iPhone 12 Pro</option>
+        <option value="iPhone 12">iPhone 12</option>
+        <option value="iPhone SE">iPhone SE</option>
+        <option value="iPhone 11">iPhone 11</option>
+
+        <option value="Samsung Galaxy A32 4G">Samsung Galaxy A32 4G</option>
+        <option value="Samsung Galaxy F62">Samsung Galaxy F62</option>
+        <option value="Samsung Galaxy M12 ">Samsung Galaxy M12 </option>
+        <option value="Samsung Galaxy M02">Samsung Galaxy M02</option>
+        <option value="Samsung Galaxy M02s ">Samsung Galaxy M02s </option>
+
+        <option value="Oppo F19 Pro">Oppo F19 Pro</option>
+        <option value="Oppo F19 Pro+">Oppo F19 Pro+</option>
+        <option value="Oppo A15s">Oppo A15s</option>
+        <option value="Oppo Reno 5 Pro 5G">Oppo Reno 5 Pro 5G</option>
+        <option value="Oppo A15">Oppo A15</option>
+
+        <option value="Redmi Note 10 Pro Max">Redmi Note 10 Pro Max</option>
+        <option value="Redmi Note 10">Redmi Note 10</option>
+        <option value="Redmi Note 10 Pro">Redmi Note 10 Pro</option>
+        <option value="Xiaomi Mi 10i">Xiaomi Mi 10i</option>
+        <option value="Redmi 9 Power">Redmi 9 Power</option>
+
+        </select>
+        <br><br>
+        <br>
+
+        <label><b>Reference Number</b>    
+        </label>
+        <br>    
+        <input type="text" name="ref-no" id="ref-no" placeholder="Reference Number">    
+        <br><br> 
+        <br> 
+
+
+        <label><b>Feedback</b>    
+        </label>
+        <br><br>
+        <textarea name="Text1" cols="40" rows="5"></textarea>    
+        <br><br> 
+        <br>
+
+
+        <label><b>Rating    
+        </b>    
+        </label>
+        <br><br>    
+            <span class="rating-group">
+
+              <input type="radio" id="rating-1" name="rating" value="1" />
+              <label for="rating-1">1</label>
+              <input type="radio" id="rating-2" name="rating" value="2" />
+              <label for="rating-2">2</label>
+              <input type="radio" id="rating-3" name="rating" value="3" />
+              <label for="rating-3">3</label>
+              <input type="radio" id="rating-4" name="rating" value="4" checked="checked" />
+              <label for="rating-4">4</label>
+              <input type="radio" id="rating-5" name="rating" value="5" />
+              <label for="rating-5">5</label>
+
+            </span>  
+        <br><br> 
+        <br> 
+
+        <input type="submit" name="submit" id="submit" value="Submit">    
+    </form>     
+</div>    
+</body>    
+</html>
